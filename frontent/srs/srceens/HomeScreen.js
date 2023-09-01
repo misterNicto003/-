@@ -18,8 +18,9 @@ const HomeScreen = {
               <div class="product-price">${product.price}</div>
             </div>
           </li>
-        `)}
-      </ul>
+        `
+        ).join("\n")}
+      ;
     `
   },
 };
